@@ -1,0 +1,19 @@
+@extends('fe.master')
+@section('banner')
+    @include('fe.banner')
+@endsection
+@section('produk-list')
+    @include('fe.produk-list')
+@endsection
+@section('trending-item')
+    @include('fe.trending-item')
+@endsection
+@section('review')
+    @include('fe.review')  
+@endsection
+@section('feature')
+    @include('fe.feature')
+@endsection
+@section('subscribe')
+    @include('fe.subscribe')
+@endsection
